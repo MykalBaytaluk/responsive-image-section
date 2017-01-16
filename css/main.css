@@ -17,6 +17,43 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #e2e2e2;
+  margin: 0;
+}
+
+.header {
+  padding: 1rem;
+}
+
+.title {
+  margin-bottom: 0;
+}
+
+.text {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  border-style: none;
+  border-width: 2px;
+  border-radius: 4px;
+  background-color: #555;
+  color: #fff;
+  padding: .5em .75em;
+}
+
+.img {
+  width: 100%;
+}
+
 @media only screen and (min-width: 25em) {
 
   html {
