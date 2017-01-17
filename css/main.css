@@ -24,6 +24,7 @@ body {
 
 .header {
   padding: 1rem;
+  display: block;
 }
 
 .title {
@@ -54,8 +55,13 @@ a:hover {
   background-color: #000;
 }
 
-.img {
+.img-div {
+  display: block;
+}
+
+.img-flex {
   width: 100%;
+  display: block;
 }
 
 @media only screen and (min-width: 25em) {
@@ -74,6 +80,21 @@ a:hover {
     line-height: 1.4;
   }
 
+  .header {
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    width: 48%;
+    max-width: 25em;
+  }
+
+  .img-div {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    max-width: 25em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -81,6 +102,11 @@ a:hover {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  .img-flex {
+    padding-top: 2em;
+    padding-bottom: 2em;
   }
 
 }
